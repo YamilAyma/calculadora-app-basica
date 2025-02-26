@@ -9,6 +9,6 @@ Aquí brindo algunas capturas de pantalla
 <img src="https://i.imgur.com/3a1bOmh.png" width="200px" height="auto"/>
 
 ### Menú de operaciones
-<img src="https://i.imgur.com/3a1bOmh.png" width="200px" height="auto"/>
+<img src="https://i.imgur.com/Mkzc3r2.png" width="200px" height="auto"/>
 
 
