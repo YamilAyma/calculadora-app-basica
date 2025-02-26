@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Número 1"
+        android:text="Ingrese el valor númerico"
+        android:textColor="#474747"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="0"
+        android:textColor="#FF4141"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Número"
+        android:inputType="number"
+        />
+
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <Button
+        android:id="@+id/volver"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:text="Volver al menú"
+        />
+
+
+</LinearLayout>
